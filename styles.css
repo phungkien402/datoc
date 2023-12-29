@@ -1,0 +1,67 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+   
+}
+.background-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-image: url(abc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+  .container {
+    max-width: 400px;
+    width: 80%; /* Điều chỉnh kích thước của khung */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px 0;
+    font-size: 16px;
+    outline: 0;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
